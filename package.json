@@ -2,7 +2,10 @@
   "name": "vue-notes-example",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/DemonRxf/vue-notes-example.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DemonRxf/vue-notes-example.git"
+  },
   "author": "Demon <384277895@qq.com>",
   "license": "MIT",
   "scripts": {
@@ -10,5 +13,11 @@
   },
   "devDependencies": {
     "browser-sync": "^2.21.0"
-  }
+  },
+  "description": "Vue,js 范例",
+  "bugs": {
+    "url": "https://github.com/DemonRxf/vue-notes-example/issues"
+  },
+  "homepage": "https://github.com/DemonRxf/vue-notes-example#readme",
+  "dependencies": {}
 }
